@@ -8,15 +8,21 @@ public class User extends Properties {
             this.type = "User";
    }
 
-   public int rank (House house) {
-      int sum = 0;
-      sum += this.weight(this.priority[0]) * 1/ (1 + (Math.abs(house.total_bedrooms - this.total_bedrooms)));
-      sum += this.weight(this.priority[1]) * (Math.abs(house.open_bedrooms - this.open_bedrooms));
-      sum += this.weight(this.priority[2]) * (Math.abs(house.bathrooms - this.bathrooms));
-      sum += this.weight(this.priority[4]) * (Math.abs(house.distance - this.distance));
-      sum += this.weight(this.priority[3]) * (Math.abs(house.max_price - this.max_price));
-      sum += this.weight(this.priority[5]) * (Math.abs(house.sqft - this.sqft));
-      //max is not 0 but if we do1/ans then it's flipped
+   public float rank (House house) {
+
+      if( house.distance > this.distance || house.max_price > this.max_price || this.sqft > house.sqft) {
+         return 0;
+      }
+
+      float sum = 0;
+      sum += this.weight(this.priority[0]) * 1.0 / (1 + (Math.abs(house.total_bedrooms - this.total_bedrooms)));
+      sum += this.weight(this.priority[1]) * 1.0 / (1 + (Math.abs(house.open_bedrooms - this.open_bedrooms)));
+      sum += this.weight(this.priority[2]) * (house.bathrooms - this.bathrooms);
+      sum += this.weight(this.priority[4]) * 1.0 / (1 + (house.distance));
+      sum += this.weight(this.priority[3]) * 1.0 / (1 + ((house.max_price) / 1000));
+      sum += this.weight(this.priority[5]) * ((float)(house.sqft - this.sqft) / 200 );
+
+      return sum;
    }
 
    public int weight (int priority) {

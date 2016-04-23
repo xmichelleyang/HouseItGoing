@@ -27,9 +27,13 @@ public class Properties implements Serializable {
             this.max_price = max_price;
             this.sqft = sqft;
 
-            for (int i = 0; i < 6; i++){
-               this.priority[i] = priority[i];
+            if( priority != null ) {
+               for (int i = 0; i < 6; i++){
+                  this.priority[i] = priority[i];
+               }
             }
+
+
    }
 
    void save (int slot) throws IOException {
@@ -61,13 +65,12 @@ public class Properties implements Serializable {
 
    public static void main(String[] args) throws IOException {
       int[] egers = {1,3,2,4,5,6};
-      Properties test = new Properties(5,2,500, 300,1000, egers);
-      test.save(0);
+      User user = new User (1,1,1,400, 400, 400, egers);
+      House badhouse = new House(1,1,1, 300, 390, 401);
+      House goodhouse = new House(1,1,1, 1, 300, 600);
 
-      Properties test2be = Properties.load(0, "house");
-      System.out.println(test2be.total_bedrooms);
-      System.out.println(test2be.open_bedrooms);
-      System.out.println(test2be.sqft);
+      System.out.println(user.rank(badhouse));
+      System.out.println(user.rank(goodhouse));
    }
 
 }
