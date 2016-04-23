@@ -10,16 +10,19 @@ public class Properties implements Serializable {
 
    int total_bedrooms;
    int open_bedrooms;
+   int bathrooms;
    float distance;
    float max_price;
    int sqft;
    int[] priority = new int[6];
+   String type;
 
    //Constructor
-   Properties (int total_bedrooms, int open_bedrooms, float distance, float max_price,
-         int sqft, int[] priority) {
+   Properties (int total_bedrooms, int open_bedrooms, int bathrooms,
+         float distance, float max_price, int sqft, int[] priority) {
             this.total_bedrooms = total_bedrooms;
             this.open_bedrooms = open_bedrooms;
+            this.bathrooms = bathrooms;
             this.distance = distance;
             this.max_price = max_price;
             this.sqft = sqft;
@@ -32,16 +35,16 @@ public class Properties implements Serializable {
    void save (int slot) throws IOException {
 
       ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-         new File("save" + slot + ".sav")));
+         new File(this.type + slot + ".sav")));
       writer.writeObject(this);
       writer.close();
    }
 
-   public static Properties load (int index) {
+   public static Properties load (int index, String type) {
       Properties saveFile = null;
       try {
             ObjectInputStream reader = new ObjectInputStream(
-               new FileInputStream(new File("save" + Integer.toString(index) +
+               new FileInputStream(new File(type + Integer.toString(index) +
                ".sav")));
 
             saveFile = (Properties) reader.readObject();
@@ -61,7 +64,7 @@ public class Properties implements Serializable {
       Properties test = new Properties(5,2,500, 300,1000, egers);
       test.save(0);
 
-      Properties test2be = Properties.load(0);
+      Properties test2be = Properties.load(0, "house");
       System.out.println(test2be.total_bedrooms);
       System.out.println(test2be.open_bedrooms);
       System.out.println(test2be.sqft);
