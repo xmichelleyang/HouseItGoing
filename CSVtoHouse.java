@@ -12,7 +12,7 @@ import java.util.regex;
 
 import com.opencsv.CSVReader;
 
-public class saveCSV {
+public class CSVtoHouse {
 
    public static void main(String[] args) {
       //create CSVReader object
