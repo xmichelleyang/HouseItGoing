@@ -10,21 +10,29 @@ import java.util.List;
 import java.util.Map;
 import java.io.FileWriter;
 
-
+/**
+ * A House object signifying the properties of a house to be listed.
+ * Can also be appended onto a CSV file
+ **/
 public class House extends Properties {
    String address;
    //Constructor
-   House (String address, int total_bedrooms, int open_bedrooms, int bathrooms, float distance,
-         float max_price, int sqft) {
-            super(total_bedrooms, open_bedrooms, bathrooms, distance, max_price, sqft, null);
+   House (String address, int total_bedrooms, int open_bedrooms, int bathrooms,
+         float distance, float max_price, int sqft) {
+            super(total_bedrooms, open_bedrooms, bathrooms, distance,
+                  max_price, sqft, null);
             this.address = address;
             this.type = "House";
    }
-   public void save (House house)  throws IOException{
 
-      FileWriter pw = new FileWriter("housing.csv", true); //true for append
+   /**
+    * Saves the house listing onto a CSV File
+    * @param House - house to be saved
+    */
+   public void save ()  throws IOException{
 
-      System.out.println(""); //new line
+      FileWriter pw = new FileWriter("housingTEST.csv", true); //true for append
+
       pw.append(this.address);
       pw.append(",");
       pw.append(Integer.toString(total_bedrooms));
@@ -38,6 +46,8 @@ public class House extends Properties {
       pw.append(Float.toString(max_price));
       pw.append(",");
       pw.append(Integer.toString(sqft));
+      pw.append('\n');
+
 
       pw.flush();
       pw.close();
