@@ -2,60 +2,60 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_e3b3a6968df116605c0e29aced603c0e2be13b15\classes.dex" />
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_e3486f8fb5aa7b26022e039544e22f742f8fe0a6\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_f3e5a0bcf7c499b01cb15a58d2c3c8e8db8ec402\classes.dex" />
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_80552271197c3aa3863e532262af3f68bce3660d\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_4801541539ebc6fe7d04247a974a01d4df0d3426\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c474b87178c580e2f284be1f7767d9a72eaa5ca6">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4457ad2ca5d1927ce717cfd23649c0b0c46ebd6e\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_337fe963a9c802fc1571efae336c09c5e8c4ab88\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Griffin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jar="C:\Users\Michelle\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_82484a48e9a34e2b7c5b4810a0cb14a418fbf918\classes.dex" />
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_15f40fe68416716850fa8ba5c833357653dca4c6\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_de06d9ba7f54eb1842b272fbe76578777d8abb18\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_84d664d1eacf083ccf7d7adb55960bb5244beb35\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8afcb60fa565bbc29f261ff220651838acf16733">
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d52cc72f3e571a79f6ee90e3f08dc716a5b30294\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_8a582b17caf8b988d3d48c0cead3259f9b5c5a03\classes.dex" />
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_6f2d36399b80797e2304d5452381d9f0cd941c77\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="4721cf01dc87a736a0c443267df80579125b3366">
-        <dex dex="C:\Users\Griffin\AndroidStudioProjects\HouseMatch\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d84a9d8079a65ebffe4d45ebfd14bf0e296f7619\classes.dex" />
+        sha1="b1981cd4463c1a65120412e5719af50dde84992f">
+        <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d5c68f5d63270609fa1138e952aa64161c814ba5\classes.dex" />
     </item>
 
 </items>
