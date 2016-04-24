@@ -16,6 +16,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".TenantPref" />
+        <activity
+            android:name=".Landlord"
+            android:label="@string/title_activity_landlord"
+            android:parentActivityName=".MainScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainScreen" />
+        </activity>
     </application>
 
 </manifest>

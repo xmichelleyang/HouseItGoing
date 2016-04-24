@@ -43,4 +43,8 @@ public class MainScreen extends AppCompatActivity {
         Intent intent = new Intent(MainScreen.this, TenantPref.class);
         startActivity(intent);
     }
+    public void toLandLord(View view) {
+        Intent intent = new Intent(MainScreen.this, Landlord.class);
+        startActivity(intent);
+    }
 }

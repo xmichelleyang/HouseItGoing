@@ -21,7 +21,8 @@
         android:id="@+id/landlordButton"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="toLandLord"/>
 
     <Button
         android:layout_width="wrap_content"
