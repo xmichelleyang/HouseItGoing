@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
 
 public class Landlord extends Activity {
 
@@ -25,8 +24,8 @@ public class Landlord extends Activity {
         this.bathrooms = (EditText)findViewById(R.id.editText4);
         this.distance = (EditText)findViewById(R.id.editText5);
         this.sqft = (EditText)findViewById(R.id.editText6);
-        this.price = (EditText)findViewById(R.id.editText7);
-        this.email = (EditText)findViewById(R.id.editText8);
+        this.price = (EditText)findViewById(R.id.totalroomrank);
+        this.email = (EditText)findViewById(R.id.openroomrank);
 
     }
     public void toMainScreen(View view) {

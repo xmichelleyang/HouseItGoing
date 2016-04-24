@@ -23,6 +23,7 @@ import java.io.FileOutputStream;
 public class House extends Properties implements Serializable {
     String address;
     String email;
+    float rank;
     //Constructor
     House (String address, float total_bedrooms, float open_bedrooms, float bathrooms,
          float distance, float max_price, int sqft, String email) {
@@ -31,6 +32,7 @@ public class House extends Properties implements Serializable {
             this.address = address;
             this.email = email;
             this.type = "House";
+            this.rank = 0;
     }
 
     /**

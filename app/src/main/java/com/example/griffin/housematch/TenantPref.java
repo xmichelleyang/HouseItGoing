@@ -1,10 +1,14 @@
 package com.example.griffin.housematch;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 
 public class TenantPref extends Activity {
     EditText totalroomrank, openroomrank, bathroomrank, pricerank, distancerank, sqftrank;
@@ -51,7 +55,24 @@ public class TenantPref extends Activity {
                 Integer.parseInt(sqft.getText().toString()),
                 priorities
         );
-    }
 
+        // Save user data as a temporary file
+        String filename = "user_temp";
+        FileOutputStream outputStream;
+
+        try {
+            outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+            ObjectOutputStream writer = new ObjectOutputStream(outputStream);
+            writer.writeObject(user);
+            writer.close();
+            System.out.println("Temporarily saved user data.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        Intent intent = new Intent(TenantPref.this, Home.class);
+        startActivity(intent);
+
+    }
 
 }

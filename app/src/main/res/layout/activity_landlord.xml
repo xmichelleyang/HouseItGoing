@@ -149,8 +149,8 @@
         android:layout_below="@+id/textView7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText7"
-        android:layout_alignEnd="@+id/editText7" />
+        android:layout_alignRight="@+id/totalroomrank"
+        android:layout_alignEnd="@+id/totalroomrank" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText7"
+        android:id="@+id/totalroomrank"
         android:layout_below="@+id/textView8"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -178,7 +178,7 @@
         android:text="Done"
         android:id="@+id/button"
         android:onClick="toMainScreen"
-        android:layout_alignTop="@+id/editText8"
+        android:layout_alignTop="@+id/openroomrank"
         android:layout_alignRight="@+id/editText"
         android:layout_alignEnd="@+id/editText" />
 
@@ -188,7 +188,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Email"
         android:id="@+id/textView9"
-        android:layout_below="@+id/editText7"
+        android:layout_below="@+id/totalroomrank"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -197,12 +197,12 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editText8"
+        android:id="@+id/openroomrank"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText7"
-        android:layout_alignEnd="@+id/editText7" />
+        android:layout_alignRight="@+id/totalroomrank"
+        android:layout_alignEnd="@+id/totalroomrank" />
 
 </RelativeLayout>
 

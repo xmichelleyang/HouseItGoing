@@ -150,7 +150,8 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/textView8"
-        android:layout_alignEnd="@+id/textView8" />
+        android:layout_alignEnd="@+id/textView8"
+        android:onClick="toHomeScreen" />
 
     <Button
         android:layout_width="wrap_content"
@@ -167,7 +168,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText7"
+        android:id="@+id/totalroomrank"
         android:layout_below="@+id/textView8"
         android:layout_alignRight="@+id/textView8"
         android:layout_alignEnd="@+id/textView8"
@@ -179,53 +180,53 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText8"
+        android:id="@+id/openroomrank"
         android:layout_alignBottom="@+id/editText2"
-        android:layout_alignLeft="@+id/editText7"
-        android:layout_alignStart="@+id/editText7" />
+        android:layout_alignLeft="@+id/totalroomrank"
+        android:layout_alignStart="@+id/totalroomrank" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText9"
+        android:id="@+id/bathroomrank"
         android:layout_alignBottom="@+id/editText3"
-        android:layout_alignRight="@+id/editText8"
-        android:layout_alignEnd="@+id/editText8"
-        android:layout_alignLeft="@+id/editText8"
-        android:layout_alignStart="@+id/editText8" />
+        android:layout_alignRight="@+id/openroomrank"
+        android:layout_alignEnd="@+id/openroomrank"
+        android:layout_alignLeft="@+id/openroomrank"
+        android:layout_alignStart="@+id/openroomrank" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText10"
+        android:id="@+id/pricerank"
         android:layout_alignBottom="@+id/editText4"
-        android:layout_alignRight="@+id/editText9"
-        android:layout_alignEnd="@+id/editText9"
-        android:layout_alignLeft="@+id/editText9"
-        android:layout_alignStart="@+id/editText9" />
+        android:layout_alignRight="@+id/bathroomrank"
+        android:layout_alignEnd="@+id/bathroomrank"
+        android:layout_alignLeft="@+id/bathroomrank"
+        android:layout_alignStart="@+id/bathroomrank" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText11"
+        android:id="@+id/distancerank"
         android:layout_above="@+id/textView7"
-        android:layout_alignRight="@+id/editText10"
-        android:layout_alignEnd="@+id/editText10"
-        android:layout_alignLeft="@+id/editText10"
-        android:layout_alignStart="@+id/editText10" />
+        android:layout_alignRight="@+id/pricerank"
+        android:layout_alignEnd="@+id/pricerank"
+        android:layout_alignLeft="@+id/pricerank"
+        android:layout_alignStart="@+id/pricerank" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText12"
+        android:id="@+id/sqftrank"
         android:layout_alignBottom="@+id/editText6"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button" />

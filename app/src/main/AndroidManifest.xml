@@ -25,6 +25,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="MainScreen" />
         </activity>
+        <activity android:name=".Home"></activity>
     </application>
 
 </manifest>
