@@ -21,8 +21,8 @@ public class Landlord extends Activity {
         String bathrooms = ((EditText)findViewById(R.id.editText4)).getText().toString();
         String distance = ((EditText)findViewById(R.id.editText5)).getText().toString();
         String sqft = ((EditText)findViewById(R.id.editText6)).getText().toString();
-        String price = ((EditText)findViewById(R.id.editText7)).getText().toString();
-        String email = ((EditText)findViewById(R.id.editText8)).getText().toString();
+        String price = ((EditText)findViewById(R.id.totalroomrank)).getText().toString();
+        String email = ((EditText)findViewById(R.id.openroomrank)).getText().toString();
 
         House house = new House(address, Float.parseFloat(total_bedrooms),
                 Float.parseFloat(open_bedrooms), Float.parseFloat(bathrooms),

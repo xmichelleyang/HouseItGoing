@@ -4,7 +4,7 @@ package com.example.griffin.housematch;
 public class User extends Properties {
    int[] primes = {2, 3, 5, 7, 11, 13};
    //Constructor
-   User (int total_bedrooms, int open_bedrooms, int bathrooms, float distance,
+   User (float total_bedrooms, float open_bedrooms, float bathrooms, float distance,
          float max_price, int sqft, int[] priority) {
             super(total_bedrooms, open_bedrooms, bathrooms, distance, max_price,
             sqft, priority);
