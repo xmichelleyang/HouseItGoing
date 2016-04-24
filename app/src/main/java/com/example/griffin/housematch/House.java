@@ -1,7 +1,9 @@
 package com.example.griffin.housematch;
 
+import android.content.Context;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.Serializable;
 import java.io.StringWriter;
 import java.io.PrintStream;
 import java.io.FileNotFoundException;
@@ -11,12 +13,14 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.io.FileWriter;
+import java.io.File;
+import java.io.FileOutputStream;
 
 /**
  * A House object signifying the properties of a house to be listed.
  * Can also be appended onto a CSV file
  **/
-public class House extends Properties {
+public class House extends Properties implements Serializable {
     String address;
     String email;
     //Constructor
@@ -31,33 +35,40 @@ public class House extends Properties {
 
     /**
     * Saves the house listing onto a CSV File
-    * @param House - house to be saved
     */
-    public void save ()  throws IOException{
+    public String save () {
 
-      FileWriter pw = new FileWriter("housingTEST.csv", true); //true for append
-
-      pw.append(this.address);
-      pw.append(",");
-      pw.append(Float.toString(total_bedrooms));
-      pw.append(",");
-      pw.append(Float.toString(open_bedrooms));
-      pw.append(",");
-      pw.append(Float.toString(bathrooms));
-      pw.append(",");
-      pw.append(Float.toString(distance));
-      pw.append(",");
-      pw.append(Float.toString(max_price));
-      pw.append(",");
-      pw.append(Integer.toString(sqft));
-      pw.append(",");
-      pw.append(this.email);
-      pw.append('\n');
-
-
-      pw.flush();
-      pw.close();
-
+        return address + "," + total_bedrooms + "," + open_bedrooms + ","
+                + bathrooms + "," + distance + "," + max_price + ","
+                + sqft + "," + email + "\n";
+//          FileWriter pw;
+//          try {
+//              pw = new FileWriter("../../../../../res/housingTEST.csv", true);
+//
+//              pw.append(this.address);
+//              pw.append(",");
+//              pw.append(Float.toString(total_bedrooms));
+//              pw.append(",");
+//              pw.append(Float.toString(open_bedrooms));
+//              pw.append(",");
+//              pw.append(Float.toString(bathrooms));
+//              pw.append(",");
+//              pw.append(Float.toString(distance));
+//              pw.append(",");
+//              pw.append(Float.toString(max_price));
+//              pw.append(",");
+//              pw.append(Integer.toString(sqft));
+//              pw.append(",");
+//              pw.append(this.email);
+//              pw.append('\n');
+//
+//              System.out.println("added house");
+//
+//              pw.flush();
+//              pw.close();
+//          } catch(IOException e) {
+//              System.out.println(System.getProperty("user.dir"));
+//          }
 
       /*
       CSVWriter writer = new CSVWriter(new Writer(), ',');
