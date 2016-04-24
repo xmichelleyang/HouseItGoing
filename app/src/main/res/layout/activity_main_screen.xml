@@ -32,4 +32,15 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="toTenant"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locSelect"
+        android:layout_below="@+id/tenantButton"
+        android:layout_toRightOf="@+id/landlordButton"
+        android:layout_toEndOf="@+id/landlordButton"
+        android:layout_marginTop="86dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/locations"/>
 </RelativeLayout>

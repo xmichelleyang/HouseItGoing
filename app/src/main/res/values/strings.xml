@@ -48,6 +48,11 @@
         <item>-1</item>
     </string-array>
 
+    <string-array name="locations">
+        <item>Berkeley</item>
+        <item>San Diego</item>
+    </string-array>
+
     <string name="pref_title_system_sync_settings">System sync settings</string>
 
     <!-- Example settings for Notifications -->
