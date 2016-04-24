@@ -1,3 +1,5 @@
+package com.example.griffin.housematch;
+
 import java.io.Serializable;
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,9 +10,9 @@ import java.io.ObjectOutputStream;
 
 public class Properties implements Serializable {
 
-   int total_bedrooms;
-   int open_bedrooms;
-   int bathrooms;
+   float total_bedrooms;
+   float open_bedrooms;
+   float bathrooms;
    float distance;
    float max_price;
    int sqft;
@@ -18,7 +20,7 @@ public class Properties implements Serializable {
    String type;
 
    //Constructor
-   Properties (int total_bedrooms, int open_bedrooms, int bathrooms,
+   Properties (float total_bedrooms, float open_bedrooms, float bathrooms,
          float distance, float max_price, int sqft, int[] priority) {
             this.total_bedrooms = total_bedrooms;
             this.open_bedrooms = open_bedrooms;
