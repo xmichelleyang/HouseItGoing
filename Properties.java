@@ -64,13 +64,13 @@ public class Properties implements Serializable {
    }
 
    public static void main(String[] args) throws IOException {
-      int[] egers = {1,3,2,4,5,6};
+      /* int[] egers = {1,3,2,4,5,6};
       User user = new User (1,1,1,400, 400, 400, egers);
       House badhouse = new House(1,1,1, 300, 390, 401);
       House goodhouse = new House(1,1,1, 1, 300, 600);
 
       System.out.println(user.rank(badhouse));
-      System.out.println(user.rank(goodhouse));
+      System.out.println(user.rank(goodhouse)); */
    }
 
 }
