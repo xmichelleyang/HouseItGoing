@@ -40,7 +40,7 @@
         jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="8afcb60fa565bbc29f261ff220651838acf16733">
+        sha1="44aa9d2692b21ac017a5571fb9a3ec975b5e81a3">
         <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d52cc72f3e571a79f6ee90e3f08dc716a5b30294\classes.dex" />
     </item>
     <item
@@ -54,7 +54,7 @@
         jar="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="b1981cd4463c1a65120412e5719af50dde84992f">
+        sha1="b7dc31e59981c75ca44ad88b9525445fc3982f8a">
         <dex dex="C:\Users\Michelle\Desktop\hack\SBHacksII\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d5c68f5d63270609fa1138e952aa64161c814ba5\classes.dex" />
     </item>
 
