@@ -1,0 +1,11 @@
+Berkeley Data:
+[501.27097, 401.36459, -65.048225, -550.26855, -306.59528, -548.40955, 550.61163, 290.61099, 170.83296, -47.890636, -112.69931, 542.06543, 1.6425673, 549.86542]
+['Albany', 'Emeryville', 'Kensington', 'Richmond', 'Orinda', 'Cerrito', 'Berkeley', 'Oakland', 'Piedmont', 'Distance', 'Bedrooms', 'Bathrooms', 'Square Feet', 'Bias']
+
+Santa Barbara Data:
+[14.82579, -14.684257, -15.474468, 0.0045863427, 13.813127, -4.5967045, -7.8574748, 0.011778179, 10.869908]
+['Goleta', 'Montecito', 'Barbara', 'SB', 'Distance', 'Bedrooms', 'Bathrooms', 'Square Feet', 'Bias']
+
+San Diego Data:
+[513.03918, -63.222137, 512.29199, 513.7132, -0.0014636014, 511.87949]
+['Diego', 'Distance', 'Bedrooms', 'Bathrooms', 'Square Feet', 'Bias']

@@ -35,7 +35,7 @@ def read_from_csv(filename):
     apartments = []
     cities = set()
     try:
-        with open(filename, 'r') as f:
+        with open(filename, 'U') as f:
             data = csv.reader(f)
             for row in data:
                 try:
